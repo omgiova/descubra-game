@@ -5,7 +5,7 @@ import type { GridData } from './core/types';
 import Grid from './components/Grid';
 import Keyboard from './components/Keyboard';
 import Ranking from './components/Ranking';
-import { Loader2, RefreshCw, Lightbulb, Cpu, SquareTerminal, Orbit, Zap, Binary, Target, Dices, Rocket, RotateCw, RotateCcw, RefreshCcw, Repeat, Repeat2, IterationCw, Undo2, Redo2, Replace, History, Trophy } from 'lucide-react';
+import { Loader2, RefreshCw, Zap, Target } from 'lucide-react';
 
 function App() {
   const [loading, setLoading] = useState(true);
